@@ -23,20 +23,39 @@
         </nav>
     </header>
     <section>
-        <h1 class="fondoh">¡Contáctate con nosotros!</h1><br>
-        <form action="" method="post" enctype="application/x-www-form-urlencoded" class="formcont">
-        <label for="nombre">Nombre:</label>
-        <input type="text" name="nombre" id="nombre" placeholder="ingresa tu nombre"><br>
-        <label for="apellido">Apellido:</label>
-        <input type="text" name="apellido" id="apellido" placeholder="ingresa tu apellido"><br>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="ingresa tu email"><br>
-        <label for="teléfono">Teléfono:</label>
-        <input type="text" name="teléfono" id="teléfono" placeholder="ingresa tu teléfono"><br>
-        <br><label for="mensaje">Mensaje:</label><br>
-        <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="escribe tu mensaje"></textarea><br>
-        <input type="submit" value="ENVIAR">
-        </form>
+        <div class="contenido">
+            <h1 class="fondoh">¡Contáctate con nosotros!</h1>
+            <div class="contacto-wrapper">
+                <div class="contacto-form">
+                    <h3 class="contah3">Contacto</h3>
+                    <form action="">
+                        <p>
+                            <label for="nombre-completo">Nombre Completo</label>
+                            <input type="text" name="nombre-completo" id="nombre-completo">
+                        </p>
+                        <p>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email">
+                        </p>
+                        <p>
+                            <label for="telefono">Teléfono</label>
+                            <input type="telefono" name="telefono" id="telefono">
+                        </p>
+                        <p>
+                            <label for="asunto">Asunto</label>
+                            <input type="text" name="asunto" id="asunto">
+                        </p>
+                        <p>
+                            <label for="mensaje">Mensaje</label>
+                            <textarea name="mensaje" id="mensaje" rows="3"></textarea>
+                        </p>
+                        <p>
+                            <button type="submit">Enviar</button>
+                        </p>
+                    </form>
+                </div>
+            </div>
+        </div>
     </section>
     <br>
     <footer><br>
